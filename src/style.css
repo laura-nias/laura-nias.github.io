@@ -1,0 +1,161 @@
+body{
+    height: 100vh;
+    background: #70a67f;
+    /* background-image: url('./images/forest-fog.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; */
+    overflow: scroll;
+  }
+
+.greeting-container{
+    height: 100vh;
+    display: grid;
+    grid-template-areas: "hl hl logo"
+                        "list pic vl";
+    grid-template-columns: 2fr 2fr 0.5fr;
+    grid-template-rows: 0.5fr 2fr;
+    font-family: 'PlayfairDisplay';
+}
+
+.vl {
+    grid-area: vl;
+    border-right: 2px solid #fff;
+    height: 95%;
+    align-self: flex-start;
+    margin-right: 25px;
+}
+
+.hl {
+    grid-area: hl;
+    border-top: 2px solid #fff;
+    width: 95%;
+    justify-self: flex-end;
+    margin-top: 25px;
+}
+
+.logo {
+    grid-area: logo;
+    justify-self: center;
+    align-self: center;
+    color: #fff;
+    font-size: 30px;
+}
+
+.list {
+    grid-area: list;
+    color: #fff;
+    align-self: flex-end;
+}
+
+.list ul {
+    list-style: none;
+    font-size: 75px;
+}
+
+.list ul li {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.list ul li a:hover {
+    opacity: 60%;
+}
+
+.list ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.pic {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    bottom: 35px;
+}
+
+.pic img {
+    width: 100%;
+    opacity: 30%;
+}
+
+.info {
+    grid-area: pic;
+    color: #fff;
+    /* position: absolute; */
+    right: 30px;
+    align-items: center;
+}
+
+.info span {
+    font-size: 30px;
+}
+
+.info p {
+    color: #d3d3d3;
+    font-size: 20px;
+    font-family: 'Barlow';
+}
+
+.info .line-1 {
+    margin-bottom: 0;
+}
+
+.info .line-2 {
+    margin-top: 0;
+}
+
+.footer {
+    background-color: #3f5e47;
+}
+
+.footer-wrap {
+    padding: 48px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 40px auto 0 auto; */
+}
+
+.footer-logo {
+    color: #fff;
+    justify-self: start;
+    cursor:pointer;
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    font-family: 'PlayfairDisplay';
+}
+
+.footer-text {
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.social-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+}
+
+.social-wrapper a{
+    color: #fff;
+    font-size: 36px;
+}
+
+.social-wrapper a:hover{
+    opacity: 60%;
+}

@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: local("PlayfairDisplay"),
+   url(./fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: local("Barlow"), url(./fonts/Barlow/Barlow-Regular.ttf) format("truetype");
+}
