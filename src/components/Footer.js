@@ -5,7 +5,7 @@ import { FaLinkedin, FaGithub, FaCodepen } from 'react-icons/fa';
 const Footer = () => {
 
     const toggleHome = () => {
-        scroll.scrollToTop();
+      scroll.scrollToTop();
     };
 
     return (

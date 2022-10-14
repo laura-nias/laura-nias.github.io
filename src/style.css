@@ -1,11 +1,11 @@
-body{
+body{ 
     height: 100vh;
-    background: #70a67f;
-    /* background-image: url('./images/forest-fog.jpg');
+    /* background: #70a67f; */
+    background-image: url('./images/mountain.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-size: cover; */
+    background-size: cover;
     overflow: scroll;
   }
 
@@ -13,7 +13,7 @@ body{
     height: 100vh;
     display: grid;
     grid-template-areas: "hl hl logo"
-                        "list pic vl";
+                        "list info vl";
     grid-template-columns: 2fr 2fr 0.5fr;
     grid-template-rows: 0.5fr 2fr;
     font-family: 'PlayfairDisplay';
@@ -59,16 +59,16 @@ body{
     cursor: pointer;
 }
 
-.list ul li a:hover {
+.list ul li p:hover {
     opacity: 60%;
 }
 
-.list ul li a{
+.list ul li p{
     color: #fff;
     text-decoration: none;
 }
 
-.pic {
+.info-wrapper {
     position: relative;
     display: flex;
     align-items: center;
@@ -76,15 +76,9 @@ body{
     bottom: 35px;
 }
 
-.pic img {
-    width: 100%;
-    opacity: 30%;
-}
-
 .info {
-    grid-area: pic;
+    grid-area: info;
     color: #fff;
-    /* position: absolute; */
     right: 30px;
     align-items: center;
 }
@@ -94,7 +88,6 @@ body{
 }
 
 .info p {
-    color: #d3d3d3;
     font-size: 20px;
     font-family: 'Barlow';
 }
@@ -108,7 +101,7 @@ body{
 }
 
 .footer {
-    background-color: #3f5e47;
+    background-color: #17314b;
 }
 
 .footer-wrap {
@@ -158,4 +151,120 @@ body{
 
 .social-wrapper a:hover{
     opacity: 60%;
+}
+
+.about-container {
+    background: #17314b;
+    color: #fff;
+    height: 100vh;
+    font-family: 'PlayfairDisplay';
+    display: grid;
+    grid-template-areas: ". abheader abline"
+                            "absub absub abline"
+                            "abtext abtext abline";
+    grid-template-rows: 1fr 0.5fr 2fr;
+    grid-template-columns: 1fr 2fr 0fr;
+}
+
+.about-header {
+    grid-area: abheader;
+    font-size: 60px;
+    font-family: 'PlayfairDisplay';
+    margin: 20px 30px;
+    justify-self: flex-end;
+}
+
+.about-subhead{
+    grid-area: absub;
+    font-size: 40px;
+    justify-self: center;
+}
+
+.about-text-wrapper {
+    grid-area: abtext;
+    font-family: 'Barlow';
+    justify-self: center;
+    width: 60%;
+    margin: 0;
+}
+
+.about-vl {
+    grid-area: abline;
+    border-right: 2px solid #fff;
+    height: 95%;
+    margin-right: 25px;
+    align-self: center;
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
+
+.experience-container {
+    background: #ffc87b;
+    color: #fff;
+    height: 100vh;
+    font-family: 'PlayfairDisplay';
+    display: grid;
+    grid-template-areas: ". exheader exline"
+                        "tabs tabs exline"
+                        ". exbutton exline";
+    grid-template-columns: 1fr 2fr 0fr;
+    grid-template-rows: 1fr 2fr 0.5fr;
+
+}
+
+.experience-vl {
+    grid-area: exline;
+    border-right: 2px solid #fff;
+    height: 95%;
+    margin-right: 25px;
+    align-self: center;
+}
+
+.experience-header {
+    grid-area: exheader;
+    font-size: 60px;
+    font-family: 'PlayfairDisplay';
+    margin: 20px 30px;
+    justify-self: flex-end;
+}
+
+.experience-tabs {
+    grid-area: tabs;
+    justify-self: flex-start;
+    margin-left: 5%;
+}
+
+.experience-button {
+    grid-area: exbutton;
+    background-color: #17314b;
+    color: #fff;
+    border: none;
+    justify-self: flex-end;
+    align-self: center;
+    margin-right: 40px;
+    width:fit-content;
+    padding: 0 40px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'PlayfairDisplay';
+    font-size: 22px;
+}
+
+.projects-container {
+    background: #17314b;
+    color: #fff;
+    height: 100vh;
+    font-family: 'PlayfairDisplay';
+    display: grid;
+}
+
+.contact-container {
+    background: #ffc87b;
+    color: #fff;
+    height: 100vh;
+    font-family: 'PlayfairDisplay';
+    display: grid;
 }
