@@ -97,7 +97,7 @@ const Experience = () => {
           </Box>
         </div>
         <button className="experience-button">
-        <a href="https://laura-nias.github.io/src/files/LauraBooth-NiasCV.pdf" target="_blank">My CV</a></button>
+        <a href="https://laura-nias.github.io/files/LauraBooth-NiasCV.pdf" target="_blank">My CV</a></button>
       </div>
     );
 }
