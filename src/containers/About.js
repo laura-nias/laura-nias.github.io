@@ -1,53 +1,33 @@
 import React from "react";
 import { FaHtml5, FaCss3Alt, FaPython, FaSwift, FaReact, FaJs } from 'react-icons/fa';
 import { SiKotlin, SiMysql } from 'react-icons/si';
+import aboutImg from "../images/g49909.png";
 
 const About = () => {
     return (
       <div className="about-container" id="about">
-        <span
-          className="about-vl"
-          data-aos="fade-left"
-          data-aos-duration="2000"
-        />
-        <p
-          className="about-header"
-          data-aos="fade-left"
-          data-aos-duration="2000"
-        >
-          Who am I?
-        </p>
-        <p
-          className="about-subhead"
-          data-aos="zoom-in"
-          data-aos-duration="2000"
-          data-aos-delay="1500"
-        >
-          I'm Laura Nias.
-        </p>
-        <div
-          className="about-text-wrapper"
-          data-aos="fade"
-          data-aos-duration="2000"
-          data-aos-delay="2000"
-        >
-          <p>
-            A passionate Frontend Developer aspiring to someday be Full Stack. I
-            have experience in making both web and mobile applications, mainly
-            with JavaScript and Reactjs, but have also dabbled with some other
-            cool languages and frameworks.
+        <h1 className="about-title">About Me</h1>
+        <img className="about-image" src={aboutImg} />
+        <div className="about-text">
+          <p className="about-yellow-text">Hi, I'm Laura.</p>
+          <p >
+            I'm a passionate Front-End Developer with a Computer Science degree, aspiring to someday be Full
+            Stack. I have experience in making both web and mobile applications,
+            mainly with JavaScript and Reactjs, but picking up new languages and frameworks isn't a problem, and something I had to do during my degree.
           </p>
-          <FaReact />
-          <FaJs />
-          <FaHtml5 />
-          <FaCss3Alt />
-          <FaPython />
-          <SiKotlin />
-          <FaSwift />
-          <SiMysql />
+          <div className="about-icons">
+            <FaReact />
+            <FaJs />
+            <FaHtml5 />
+            <FaCss3Alt />
+            <FaPython />
+            <SiKotlin />
+            <FaSwift />
+            <SiMysql />
+          </div>
           <p>
             Outside of coding I love playing board games, collecting books and
-            exploring new places.
+            exploring new places. Recently, I have started learning how to draw with Procreate, so hopefully one day my designs will appear in my applications!
           </p>
         </div>
       </div>

@@ -13,12 +13,12 @@ code {
 }
 
 @font-face {
-  font-family: "PlayfairDisplay";
-  src: local("PlayfairDisplay"),
-   url(./fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf) format("truetype");
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+   url(./fonts/montserrat/Montserrat-Regular.otf) format("truetype");
 }
 
 @font-face {
-  font-family: "Barlow";
-  src: local("Barlow"), url(./fonts/Barlow/Barlow-Regular.ttf) format("truetype");
+  font-family: "Angelina";
+  src: local("Angelina"), url(./fonts/angelina/Angelina.ttf) format("truetype");
 }
