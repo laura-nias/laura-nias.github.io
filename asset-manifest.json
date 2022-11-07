@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.48a84626.css",
-    "main.js": "/static/js/main.d926ed6b.js",
+    "main.css": "/static/css/main.a98ca7dc.css",
+    "main.js": "/static/js/main.b3592b98.js",
     "static/js/787.7fa8ba7d.chunk.js": "/static/js/787.7fa8ba7d.chunk.js",
-    "static/media/basic-main.png": "/static/media/basic-main.553399e5c6f6b852648b.png",
-    "static/media/g724.png": "/static/media/g724.323cb4775a99515de4ce.png",
-    "static/media/g49909.png": "/static/media/g49909.7904c1fe9ddd9e569444.png",
-    "static/media/g47443.png": "/static/media/g47443.b582deaef2200d7db34d.png",
-    "static/media/g42574.png": "/static/media/g42574.77659ee53ae40aca3a47.png",
-    "static/media/Montserrat-Regular.otf": "/static/media/Montserrat-Regular.65bc44fbf8204991497c.otf",
-    "static/media/Angelina.ttf": "/static/media/Angelina.d087f55bc93f540b0fdd.ttf",
+    "static/media/DidactGothic-Regular.ttf": "/static/media/DidactGothic-Regular.37c8a8ed522192cd4de5.ttf",
+    "static/media/BenchNine-Light.ttf": "/static/media/BenchNine-Light.9d6a84a0ac9f1032cecf.ttf",
+    "static/media/WireOne-Regular.ttf": "/static/media/WireOne-Regular.cba3e48b9422a8ce30f1.ttf",
+    "static/media/project-border.svg": "/static/media/project-border.5ef1aa641a2009ee8489c26f61a97f67.svg",
+    "static/media/path1789.svg": "/static/media/path1789.e976795846ec117696d6c661275d7801.svg",
+    "static/media/corner-borders.svg": "/static/media/corner-borders.016f99a28911cdf3af63de3a765488d2.svg",
+    "static/media/sunburst.svg": "/static/media/sunburst.959e3c412755f4f7fd2e261fa02e0727.svg",
+    "static/media/year-border.svg": "/static/media/year-border.968eccfc3c4f630228ed7b0dfd555f4c.svg",
+    "static/media/footer-border.svg": "/static/media/footer-border.581961d6885c720e4cfc1e10e7f7cc5c.svg",
+    "static/media/header-lines.svg": "/static/media/header-lines.81bb3ccd336258f41b2cd3f4b74bbbc7.svg",
+    "static/media/menu-border.svg": "/static/media/menu-border.5f5432b132373a4e59983bdcfe4ba98c.svg",
+    "static/media/header-underline.svg": "/static/media/header-underline.1bae806bb7142aec9d7dafbf4eee7ae7.svg",
     "index.html": "/index.html",
-    "main.48a84626.css.map": "/static/css/main.48a84626.css.map",
-    "main.d926ed6b.js.map": "/static/js/main.d926ed6b.js.map",
+    "main.a98ca7dc.css.map": "/static/css/main.a98ca7dc.css.map",
+    "main.b3592b98.js.map": "/static/js/main.b3592b98.js.map",
     "787.7fa8ba7d.chunk.js.map": "/static/js/787.7fa8ba7d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.48a84626.css",
-    "static/js/main.d926ed6b.js"
+    "static/css/main.a98ca7dc.css",
+    "static/js/main.b3592b98.js"
   ]
 }
