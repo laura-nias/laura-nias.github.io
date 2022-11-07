@@ -13,12 +13,16 @@ code {
 }
 
 @font-face {
-  font-family: "Montserrat";
-  src: local("Montserrat"),
-   url(./fonts/montserrat/Montserrat-Regular.otf) format("truetype");
+  font-family: "WireOne";
+  src: local("WireOne"), url(./fonts/Wire_One/WireOne-Regular.ttf) format("truetype");
 }
 
 @font-face {
-  font-family: "Angelina";
-  src: local("Angelina"), url(./fonts/angelina/Angelina.ttf) format("truetype");
+  font-family: "BenchNine";
+  src: local("BenchNine"), url(./fonts/BenchNine/BenchNine-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "DidactGothic";
+  src: local("DidactGothic"), url(./fonts/Didact_Gothic/DidactGothic-Regular.ttf) format("truetype");
 }

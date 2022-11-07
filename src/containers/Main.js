@@ -6,16 +6,18 @@ import Contact from './Contact';
 import Experience from './Experience';
 import Greeting from './Greeting';
 import Projects from './Projects';
+import NavBar from '../components/NavBar';
 
 const Main = () => {
   return (
         <div className='main'>
-            <Greeting />
-            <About />
-            <Experience />
-            <Projects/>
-            <Contact />
-            <Footer />
+          <NavBar />
+          <Greeting />
+          <About />
+          <Experience />
+          <Projects/>
+          <Contact />
+          <Footer />
         </div>
   );
 }

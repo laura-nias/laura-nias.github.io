@@ -1,15 +1,17 @@
 import React from "react";
-import { FaHtml5, FaCss3Alt, FaPython, FaSwift, FaReact, FaJs } from 'react-icons/fa';
-import { SiKotlin, SiMysql } from 'react-icons/si';
-import aboutImg from "../images/g49909.png";
+import { FaHtml5, FaCss3Alt, FaPython, FaReact, FaJs } from 'react-icons/fa';
+import { SiMysql } from 'react-icons/si';
+import headerLines from "../images/header-lines.svg";
 
 const About = () => {
     return (
       <div className="about-container" id="about">
         <h1 className="about-title">About Me</h1>
-        <img className="about-image" src={aboutImg} />
         <div className="about-text">
-          <p className="about-yellow-text">Hi, I'm Laura.</p>
+          <div>
+            <img className="header-lines" src={headerLines}/>
+            <p className="about-sub-text">Hi, I'm Laura</p>
+          </div>
           <p >
             I'm a passionate Front-End Developer with a Computer Science degree, aspiring to someday be Full
             Stack. I have experience in making both web and mobile applications,
@@ -21,8 +23,6 @@ const About = () => {
             <FaHtml5 />
             <FaCss3Alt />
             <FaPython />
-            <SiKotlin />
-            <FaSwift />
             <SiMysql />
           </div>
           <p>
